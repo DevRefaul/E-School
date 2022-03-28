@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+}
+
+.cmn-btn{
+    background-color: #21B573;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.cmn-btn:hover{
+    border:1.5px solid #21B573;
+    background-color: #fff;
+    color: #000;
+}
+
+    /* header section started */
+#header{
+    background-color: #F0FFF0;
+
+}
+#header .navbar .logo img{
+    width: 100px;
+    height: auto;
+}
+#header .navbar ul li a{
+    font-size: 20px;
+    color: #000;
+    padding: 15px 0px;
+}
+
+#hero{
+    padding: 60px 30px;
+}
+.hero-txt{
+    padding-bottom:30px ;
+}
+.hero-txt h5{
+    color: #FD511A;
+    font-size: 15px;
+}
+.hero-txt h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.5em;
+    padding: 10px 0px 20px 0px;
+}
+.hero-txt h1 span{
+    color: #21B573;
+}
+.hero-txt h6{
+    color: #6C6B6B;
+    font-size: 15px;
+    padding-bottom: 1.2em;
+}
+#hero .img img{
+    width: 80%;
+    padding: 20px 0px;
+}
+
+/* hero section end */
+
+/* icons section started */
+#icons{
+    padding: 80px 0px;
+}
+#icons .container .row{
+    justify-content: space-around;
+}
+#icons .col{
+    max-width: 18rem; 
+}
+#icons .col .card{
+    border: none;
+    background-color: #F8FFFB;
+
+}
+#icons .col:hover .card{
+    border: none;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+#icons .col .img{
+    width: 20%;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+#icons .col .img img{
+    width: 100%;
+}
+#icons .col .card-body{
+    text-align: center;
+}
+
+/* icons section end */
+
+/* courses section started */
+#courses{
+    padding-bottom:70px;
+}
+#courses h2{
+    color: #413960;
+    font-weight: 700;
+    font-size: 38px;
+}
+#courses .card{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 15px 20px rgba(0, 0, 0, .2);
+}
+#courses .card:hover{
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .5);
+}
+#courses .date img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 5px;
+}
+#courses .date{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* courses section end */
+
+/* testimonials section started */
+
+#testimonials h2{
+    color: #413960;
+    font-size: 3rem;
+    font-weight: 700;
+}
+#testimonials  .review-con{
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+#testimonials  .review-con img{
+    width: 15%;
+    margin-right: 30px;
+    flex-basis: 20%;
+}
+#testimonials  .review-con p{
+    font-size: 16px;
+    flex-basis: 70%;
+}
+
+/* testimoinals section end */
+
+/* footer section end */
+
+#footer{
+    background-color: #282531;
+    color: #fff;
+    padding-bottom: 10px;
+}
+#footer h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+#footer h6{
+    font-size: 16px;
+    font-weight: normal;
+}
+#footer hr{
+    color: #fff;
+}
+#footer .lower-con{
+    padding-top: 20px ;
+}
